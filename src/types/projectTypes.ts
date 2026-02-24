@@ -1,6 +1,11 @@
-type Tech = "React" | "TypeScript" | "Node" | "PostgreSQL" | "React Native";
+export type Tech =
+  | "React"
+  | "TypeScript"
+  | "Node"
+  | "PostgreSQL"
+  | "React Native";
 
-type Project = {
+export type Project = {
   title: string;
   techStack: Tech[]; // Union
   description: string;
