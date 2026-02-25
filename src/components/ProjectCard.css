@@ -6,6 +6,7 @@
   transition: transform 0.2s ease;
   background-color: gray;
   margin: 10px;
+  text-align: center;
 }
 
 .titleText {
