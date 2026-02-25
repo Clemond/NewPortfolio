@@ -1,6 +1,9 @@
 .container {
+  display: flex;
+  flex-direction: row;
   border-color: aliceblue;
   border-bottom-style: solid;
+  align-items: baseline;
 }
 
 .nameField {
@@ -17,4 +20,32 @@
 .jobTitle {
   font-size: small;
   color: lightgrey;
+}
+
+.headerBtnContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.headerBtn {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.87);
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+  border-right-style: solid;
+  border-width: 0.15rem;
+  transition: all 200ms ease;
+}
+
+.headerBtn:hover {
+  transform: scale(1.05);
+}
+
+.headerBtn:active {
+  opacity: 0.6;
 }
