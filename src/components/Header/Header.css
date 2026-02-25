@@ -2,3 +2,19 @@
   border-color: aliceblue;
   border-bottom-style: solid;
 }
+
+.nameField {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: large;
+}
+
+.jobTitle {
+  font-size: small;
+  color: lightgrey;
+}
