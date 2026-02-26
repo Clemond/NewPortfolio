@@ -1,0 +1,13 @@
+.linkButtons {
+  box-shadow: 0 4px 6px rgba(194, 39, 222, 0.5);
+  opacity: 1;
+}
+
+.linkButtons:hover {
+  opacity: 0.8;
+}
+
+.linkButtons:active {
+  opacity: 0.6;
+  transition: opacity 200ms;
+}

@@ -1,5 +1,6 @@
-import ProfilePic from "../assets/profilePic.jpg";
+import ProfilePic from "../../assets/profilePic.jpg";
 import "./PresentationCard.css";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 export default function PresentationCard() {
   return (
@@ -32,7 +33,7 @@ export default function PresentationCard() {
             marginTop: "12px"
           }}
         >
-          {/* <SocialMediaLinks /> */}
+          <SocialMediaLinks />
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { projects } from "../data/projects";
 import { ProjectCard } from "../components/ProjectCard";
-import Header from "../components/Header/Header";
-import PresentationCard from "../components/PresentationCard";
+import Header from "../components/header/Header";
+import PresentationCard from "../components/intro-card/PresentationCard";
 
 export const Home: React.FC = () => {
   return (
