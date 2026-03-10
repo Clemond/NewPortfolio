@@ -1,9 +1,10 @@
 import { projects } from "../../data/projects";
 import { ProjectCard } from "./ProjectCard";
+import "./ProjectSection.css";
 
 export default function ProjectSection() {
   return (
-    <div>
+    <div className="ProjectCardContainer">
       {projects.map((proj) => (
         <ProjectCard key={proj.title} project={proj} />
       ))}

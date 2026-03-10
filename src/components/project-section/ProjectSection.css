@@ -1,0 +1,9 @@
+.ProjectCardContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  scrollbar-width: thin;
+}
