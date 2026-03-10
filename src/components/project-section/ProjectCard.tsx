@@ -16,7 +16,7 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
       />
       <div>
         <p className="titleText">{project.title}</p>
-        <p>{project.description}</p>
+        <p className="descriptionText">{project.description}</p>
         <p>Tech: {project.techStack.join(", ")}</p>
         <a href={project.githubUrl} target="_blank">
           GitHub
