@@ -1,5 +1,5 @@
 import React from "react";
-import type { Project } from "../types/projectTypes";
+import type { Project } from "../../types/projectTypes";
 import "./ProjectCard.css";
 
 type Props = {
@@ -14,10 +14,10 @@ export const ProjectCard: React.FC<Props> = ({ project }) => {
         alt={`${project.title} screenshot`}
         className="projectImage"
       />
-      <div>
+      <div className="cardContent">
         <p className="titleText">{project.title}</p>
-        <p>{project.description}</p>
-        <p>Tech: {project.techStack.join(", ")}</p>
+        <p className="descriptionText">{project.description}</p>
+        <p>Tech: {project.techStack.map((tech) => `[${tech}]`).join(" ")}</p>
         <a href={project.githubUrl} target="_blank">
           GitHub
         </a>
