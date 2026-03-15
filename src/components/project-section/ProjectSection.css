@@ -7,3 +7,10 @@
   border-radius: 10px;
   scrollbar-width: thin;
 }
+
+.ProjectTitleText {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
