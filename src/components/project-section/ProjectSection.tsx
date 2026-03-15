@@ -4,10 +4,13 @@ import "./ProjectSection.css";
 
 export default function ProjectSection() {
   return (
-    <div className="ProjectCardContainer">
-      {projects.map((proj) => (
-        <ProjectCard key={proj.title} project={proj} />
-      ))}
+    <div>
+      <p className="ProjectTitleText">Projects</p>
+      <div className="ProjectCardContainer">
+        {projects.map((proj) => (
+          <ProjectCard key={proj.title} project={proj} />
+        ))}
+      </div>
     </div>
   );
 }
