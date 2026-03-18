@@ -1,4 +1,4 @@
-.container {
+.headerContainer {
   display: flex;
   flex-direction: row;
   border-color: aliceblue;
@@ -10,18 +10,18 @@
   background: linear-gradient(135deg, #1e1e28, #242424);
 }
 
-.nameField {
+.headerNameField {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   gap: 0.5rem;
 }
 
-.name {
+.headerName {
   font-size: large;
 }
 
-.jobTitle {
+.headerJobTitle {
   font-size: small;
   color: lightgrey;
 }
@@ -52,4 +52,12 @@
 
 .headerBtn:active {
   opacity: 0.6;
+}
+
+#projectSection {
+  scroll-margin-top: 80px;
+}
+
+#skillsSection {
+  scroll-margin-top: 80px;
 }

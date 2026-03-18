@@ -2,15 +2,22 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="container">
-      <div className="nameField">
-        <p className="name">Nicholas Nieminen Jönsson</p>
-        <p className="jobTitle">iOS & Android Developer</p>
+    <div className="headerContainer">
+      <div className="headerNameField">
+        <p className="headerName">Nicholas Nieminen Jönsson</p>
+        <p className="headerJobTitle">iOS & Android Developer</p>
       </div>
 
       <div className="headerBtnContainer">
-        <button onClick={() => {}} className="headerBtn">
-          Portfolio
+        <button
+          onClick={() => {
+            document.getElementById("projectSection")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}
+          className="headerBtn"
+        >
+          Projects
         </button>
         <button onClick={() => {}} className="headerBtn">
           Resume
@@ -18,7 +25,14 @@ export default function Header() {
         <button onClick={() => {}} className="headerBtn">
           About Me
         </button>
-        <button onClick={() => {}} className="headerBtn">
+        <button
+          onClick={() => {
+            document.getElementById("skillsSection")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}
+          className="headerBtn"
+        >
           Skills
         </button>
         <button onClick={() => {}} className="headerBtn">
