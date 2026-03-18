@@ -4,7 +4,7 @@ import SocialMediaLinks from "./SocialMediaLinks";
 
 export default function PresentationSection() {
   return (
-    <div className="containerProfile">
+    <div className="presentationSectionContainer">
       <img
         style={{
           borderRadius: "192px",
@@ -15,14 +15,22 @@ export default function PresentationSection() {
         alt="Profile Pic"
       />
       <div>
-        <p className="helloImText">Hello, I'm</p>
-        <p className="nameText">Nicholas Nieminen Jönsson</p>
-        <p className="jobText">Application Developer Student</p>
-        <div className="buttonField">
-          <button className="buttonStyle" onClick={() => alert("TBD")}>
+        <p className="presentationSectionHelloText">Hello, I'm</p>
+        <p className="presentationSectionNameText">Nicholas Nieminen Jönsson</p>
+        <p className="presentationSectionJobTitle">
+          Application Developer Student
+        </p>
+        <div className="presentationSectionButtonField">
+          <button
+            className="presentationSectionBtnStyle"
+            onClick={() => alert("TBD")}
+          >
             Download CV
           </button>
-          <button className="buttonStyle" onClick={() => alert("TBD")}>
+          <button
+            className="presentationSectionBtnStyle"
+            onClick={() => alert("TBD")}
+          >
             Contact Info
           </button>
         </div>

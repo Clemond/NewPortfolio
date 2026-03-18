@@ -1,4 +1,4 @@
-.containerProfile {
+.presentationSectionContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -6,30 +6,29 @@
   gap: 2rem;
 }
 
-.helloImText {
+.presentationSectionHelloText {
   font-size: large;
   color: #d1d5db;
 }
 
-.nameText {
+.presentationSectionNameText {
   font-weight: bold;
   font-size: x-large;
 }
 
-.jobText {
+.presentationSectionJobTitle {
   font-style: italic;
   font-size: large;
   color: #d1d5db;
 }
 
-.buttonField {
+.presentationSectionButtonField {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 12px;
 }
 
-.buttonStyle {
+.presentationSectionBtnStyle {
   background-color: white;
   color: black;
   padding: 8px;
