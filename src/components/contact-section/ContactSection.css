@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  background: linear-gradient(135deg, #1e1e28, #242424);
+  background: #1a1a22;
 }
 
 .contactSectionContainer::after {
