@@ -3,6 +3,7 @@
   flex-direction: row;
   border-color: aliceblue;
   border-bottom-style: solid;
+  border-width: 1px;
   align-items: baseline;
   position: sticky;
   top: 0;
