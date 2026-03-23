@@ -1,7 +1,7 @@
 export type JobExperience = {
   title: string;
   location: string;
-  year: number;
+  year: string;
   description: string[];
   imageUrl?: string;
 };
