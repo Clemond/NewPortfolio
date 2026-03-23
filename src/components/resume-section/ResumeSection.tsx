@@ -3,7 +3,7 @@ import "./ResumeSection.css";
 
 export default function ResumeSection() {
   return (
-    <div className="ResumeSectionTimeline">
+    <div id="resumeSection" className="ResumeSectionTimeline">
       <p className="ResumeSectionTitle">Resume</p>
       {resume.map((job) => (
         <div className="ResumeSectionTimelineItem">
