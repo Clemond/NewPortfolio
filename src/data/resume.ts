@@ -2,10 +2,13 @@ import type { JobExperience } from "../types/resumeType";
 
 export const resume: JobExperience[] = [
   {
-    title: "Programming 1",
-    location: "NTI-School",
-    year: "2023",
-    description: ["First introduction to programming"]
+    title: "App Developer (Internship)",
+    location: "Pixlo AB",
+    year: "2025",
+    description: [
+      "Worked with real-world mobile applications",
+      "Collaborated in a development team"
+    ]
   },
   {
     title: "iOS & Android Development",
@@ -17,12 +20,9 @@ export const resume: JobExperience[] = [
     ]
   },
   {
-    title: "App Developer (Internship",
-    location: "Pixlo AB",
-    year: "2025",
-    description: [
-      "Worked with real-world mobile applications",
-      "Collaborated in a development team"
-    ]
+    title: "Programming 1",
+    location: "NTI-School",
+    year: "2023",
+    description: ["First introduction to programming"]
   }
 ];
