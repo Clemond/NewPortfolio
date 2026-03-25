@@ -1,0 +1,11 @@
+.AboutMeSectionContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.AboutMeSectionTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
