@@ -6,6 +6,7 @@ import PresentationSection from "../components/presentation-section/Presentation
 import ContactSection from "../components/contact-section/ContactSection";
 import ResumeSection from "../components/resume-section/ResumeSection";
 import IntroductionTextSection from "../components/introduction-text-section/IntroductionTextSection";
+import AboutMeSection from "../components/about-me-section/AboutMeSection";
 
 export const Home: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ export const Home: React.FC = () => {
       <PresentationSection />
       <IntroductionTextSection />
       <ProjectSection />
+      <AboutMeSection />
       <ResumeSection />
       <SkillSection />
       <ContactSection />

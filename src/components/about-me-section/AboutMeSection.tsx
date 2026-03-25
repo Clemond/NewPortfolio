@@ -1,7 +1,16 @@
+import { aboutMeData } from "../../data/aboutMe";
+import "./aboutMeSection.css";
+
 export default function AboutMeSection() {
   return (
-    <div>
-      <p>This is the about me section</p>
+    <div className="AboutMeSectionContainer">
+      <p className="AboutMeSectionTitle">About Me</p>
+      {aboutMeData.map((item) => (
+        <div>
+          <h2>{item.title}</h2>
+          <p>{item.text}</p>
+        </div>
+      ))}
     </div>
   );
 }
