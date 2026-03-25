@@ -1,4 +1,4 @@
-import { introductionText } from "../../data/IntroductionTxt";
+import { introductionText } from "../../data/introductionTxt";
 import "./IntroductionTextSection.css";
 import PushPinIcon from "@mui/icons-material/PushPin";
 import SchoolIcon from "@mui/icons-material/School";
