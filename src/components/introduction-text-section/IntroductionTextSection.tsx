@@ -1,4 +1,4 @@
-import { introductionText } from "../../data/introductionTxt";
+import { introductionTxt } from "../../data/IntroductionTxt";
 import "./IntroductionTextSection.css";
 import PushPinIcon from "@mui/icons-material/PushPin";
 import SchoolIcon from "@mui/icons-material/School";
@@ -8,7 +8,7 @@ import IntroductionHighlights from "./IntroductionHighlights";
 export default function IntroductionTextSection() {
   return (
     <div className="IntroductionSectionContainer">
-      <p className="IntroductionText">{introductionText}</p>
+      <p className="IntroductionText">{introductionTxt}</p>
       <div className="IntroductionHighlightSection">
         <IntroductionHighlights
           name={"Based in Stockholm"}
