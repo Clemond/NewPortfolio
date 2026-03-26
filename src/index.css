@@ -2,6 +2,7 @@
   font-family: system-ui, Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(135deg, #1e1e28, #242424, #2a1f30);
+  font-weight: 300;
 }
 a {
   font-weight: 500;

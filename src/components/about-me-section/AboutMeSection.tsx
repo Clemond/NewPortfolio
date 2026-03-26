@@ -3,14 +3,16 @@ import "./aboutMeSection.css";
 
 export default function AboutMeSection() {
   return (
-    <div className="AboutMeSectionContainer">
+    <div>
       <p className="AboutMeSectionTitle">About Me</p>
-      {aboutMeData.map((item) => (
-        <div>
-          <h2>{item.title}</h2>
-          <p>{item.text}</p>
-        </div>
-      ))}
+      <div className="AboutMeSectionContainer">
+        {aboutMeData.map((item) => (
+          <div className="AboutMeCard">
+            <h2 className="AboutMeItemTitle">{item.title}</h2>
+            <p className="AboutMeText">{item.text}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
