@@ -15,7 +15,6 @@ export const Home: React.FC = () => {
   return (
     <div>
       <Header onContactClick={() => setIsContactModalOpen(true)} />
-
       {isContactModalOpen && (
         <ContactModal onClose={() => setIsContactModalOpen(false)} />
       )}
