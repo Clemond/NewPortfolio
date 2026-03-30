@@ -1,3 +1,4 @@
+import SocialMediaLinks from "../presentation-section/SocialMediaLinks";
 import "./ContactModal.css";
 
 type props = {
@@ -11,6 +12,9 @@ export default function ContactModal({ onClose }: props) {
         <h2>Contact Me</h2>
         <p>Email: nicholas.nieminenjonsson@gmail.com</p>
         <p>Phone: +46 723627335</p>
+        <div className="ContactModalSocialMediaLinks">
+          <SocialMediaLinks />
+        </div>
       </div>
     </div>
   );
