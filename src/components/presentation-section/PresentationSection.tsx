@@ -2,7 +2,11 @@ import ProfilePic from "../../assets/profilePic.jpg";
 import "./PresentationSection.css";
 import SocialMediaLinks from "./SocialMediaLinks";
 
-export default function PresentationSection() {
+type props = {
+  onContactInfoClick: () => void;
+};
+
+export default function PresentationSection({ onContactInfoClick }: props) {
   return (
     <div className="presentationSectionContainer">
       <img
@@ -27,7 +31,7 @@ export default function PresentationSection() {
           </button>
           <button
             className="presentationSectionBtnStyle"
-            onClick={() => alert("TBD")}
+            onClick={onContactInfoClick}
           >
             Contact Info
           </button>

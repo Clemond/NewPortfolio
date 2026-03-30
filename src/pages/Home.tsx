@@ -18,7 +18,9 @@ export const Home: React.FC = () => {
       {isContactModalOpen && (
         <ContactModal onClose={() => setIsContactModalOpen(false)} />
       )}
-      <PresentationSection />
+      <PresentationSection
+        onContactInfoClick={() => setIsContactModalOpen(true)}
+      />
       <IntroductionTextSection />
       <ProjectSection />
       <AboutMeSection />
