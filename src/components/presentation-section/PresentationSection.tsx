@@ -25,7 +25,9 @@ export default function PresentationSection({ onContactInfoClick }: props) {
         <div className="presentationSectionButtonField">
           <button
             className="presentationSectionBtnStyle"
-            onClick={() => window.open("/cv.pdf", "_blank")}
+            onClick={() =>
+              window.open(`${import.meta.env.BASE_URL}cv.pdf`, `_blank`)
+            }
           >
             View & Download CV
           </button>
